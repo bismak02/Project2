@@ -167,6 +167,7 @@ float: center;
    text-align:  center;
 }
 
+/* shows */
 #avatar{
   background-color:gray;
   text-align: left;
@@ -179,7 +180,7 @@ float: center;
 #Yona{
   background-color:gray;
   text-align: left;
-  float: left;
+  float: right;
   width: 470px;
   border: 1px solid black;
   text-align:  left;
@@ -188,14 +189,44 @@ float: center;
 #Weightlifting{
   background-color:gray;
   text-align: left;
-  float: left;
+  float: right;
   width: 470px;
+  height:700 px;
   border: 1px solid black;
   text-align:  left;
   margin: 0 10px 30px;
 }
 
 #trailer{
+  background-color:gray;
+  text-align: left;
+  float: center;
+  width: 470px;
+  border: 1px solid black;
+  text-align:  left;
+  margin: 0 10px 30px;
+}
+
+/* Illinois */
+#downtown{
+  background-color:gray;
+  text-align: left;
+  float: left;
+  width: 470px;
+  border: 1px solid black;
+  text-align:  left;
+  margin: 0 10px 30px;
+}
+#sixflags{
+  background-color:gray;
+  text-align: left;
+  float: left;
+  width: 470px;
+  border: 1px solid black;
+  text-align:  left;
+  margin: 0 10px 30px;
+}
+#naperville{
   background-color:gray;
   text-align: left;
   float: left;
