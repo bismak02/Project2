@@ -15,8 +15,8 @@ h1{
 
   
 h1:hover{
-  background-color: white;
-  color: purple;
+  background-color: purple;
+  color: white;
   }
   
 img{
@@ -25,14 +25,6 @@ img{
   border-radius: 25%;
   }
   
- #resume-page {
-  font-family: 'New Rocker', cursive;
-  background-image: url("../images/pencil.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  }
 
 #navbar {
   overflow: hidden;
@@ -71,6 +63,34 @@ img{
 #onpage {
   text-decoration: underline;
 }
+
+#illinois-page {
+  font-family: 'New Rocker', cursive;
+  background-image: url("../images/sky.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  }
+#show-page {
+  font-family: 'New Rocker', cursive;
+  background-image: url("../images/netflix.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  }
+  
+ /* RESUME PAGE  */
+ 
+ #resume-page {
+  font-family: 'New Rocker', cursive;
+  background-image: url("../images/pencil.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  }
   
  #resume-info {
   width: 1560px;
@@ -137,7 +157,45 @@ img{
   margin: 0 10px 30px;
 }
 
-#footer{
+
+#footer {
+  overflow: hidden;
+  background-color: gray;
+float: center;
+  width: 100%;
+  position: relative;
+   text-align:  center;
+}
+
+#avatar{
+  background-color:gray;
+  text-align: left;
+  float: left;
+  width: 470px;
+  border: 1px solid black;
+  text-align:  left;
+  margin: 0 10px 30px;
+}
+#Yona{
+  background-color:gray;
+  text-align: left;
+  float: left;
+  width: 470px;
+  border: 1px solid black;
+  text-align:  left;
+  margin: 0 10px 30px;
+}
+#Weightlifting{
+  background-color:gray;
+  text-align: left;
+  float: left;
+  width: 470px;
+  border: 1px solid black;
+  text-align:  left;
+  margin: 0 10px 30px;
+}
+
+#trailer{
   background-color:gray;
   text-align: left;
   float: left;
