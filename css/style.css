@@ -43,10 +43,7 @@ h1:hover{
   background-size: cover;
   color: black;
   }
- #resume-info {
-  width: 1560px;
-  margin: 0 30px;
-}
+
 #About {
   text-align: left;
   float: left;
@@ -159,9 +156,6 @@ iframe {
   text-align:  left;
   margin: 0 10px 30px;
 }
-
-
-
 
 /* Navigation Bar */
 #navbar {
