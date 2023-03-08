@@ -1,31 +1,185 @@
-h1{
-  text-align: center;
-	font-weight: bold;
-	font-family: 'Helvetica';
-	font-size:50px;
-	color:black;
-	text-decoration:underline;
- }
+/* h1{ */
+  /* text-align: center; */
+	/* font-weight: bold; */
+	/* font-family: 'Times New Roman'; */
+	/* font-size:50px; */
+	/* color:black; */
+	/* text-decoration:underline; */
+ /* } */
  
- p,h2,h4,li{
-	font-family: 'Times New Roman';
-	font-size:20px;
-	color:white;
- }
+ /* p,h2,h4,li{ */
+	/* font-family: 'Times New Roman'; */
+	/* font-size:20px; */
+	/* color:white; */
+ /* } */
 
-  
+h1,h2{
+text-align:center;
+font-weight: bold; 
+font-family: 'Times New Roman';
+
+}
+
 h1:hover{
-  background-color: purple;
+  background-color: black;
+  color: white;
+  }
+  h2:hover{
+  background-color: black;
+  color: white;
+  }
+  p:hover{
+  background-color: black;
+  color: white;
+  }
+  img:hover{
+  background-color: black;
   color: white;
   }
   
-img{
-	width: 240px;
-  height: 210px;
-  border-radius: 25%;
+  
+  img{
+	  width: 470px;
+	  height: 250px;
+	  margin:auto;
   }
   
+  
+  
+ /* RESUME PAGE  */
 
+ #resume-page {
+  background-image: url("../images/pencil.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  }
+ #resume-info {
+  width: 1560px;
+  margin: 0 30px;
+}
+#About {
+  text-align: left;
+  float: left;
+  width: 470px;
+  text-align: left;
+  margin: 0 10px 30px;
+}
+#Skills {
+  text-align: left;
+  float: left;
+  width: 470px;
+  text-align:  left;
+  margin: 0 10px 30px;
+}
+#Education {
+  text-align: left;
+  float: left;
+  width: 470px;
+  text-align: left;
+  margin: 0 10px 30px;
+}
+#work {
+  text-align: left;
+  float: left;
+  width: 470px;
+  text-align:  left;
+  margin: 0 10px 30px;
+}
+#contact {
+  text-align: left;
+  float: left;
+  width: 470px;
+  text-align:  left;
+  margin: 0 10px 30px;
+}
+#volunteer {
+  text-align: left;
+  float: left;
+  width: 470px;
+  text-align:  left;
+  margin: 0 10px 30px;
+}
+
+#footer {
+  overflow: hidden;
+  background-color: gray;
+float: center;
+  width: 100%;
+  position: relative;
+   text-align:  center;
+   color: black;
+}
+
+/* shows */
+#show-page {
+  background-image: url("../images/netflix.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  }
+#avatar{
+  text-align: left;
+  float: left;
+  width: 480px;
+  margin: 0 10px 30px;
+}
+#Yona{
+  text-align: left;
+  float: right;
+  width: 480px;
+  margin: 0 10px 30px;
+}
+#Weightlifting{
+  text-align: left;
+  float: right;
+  width: 480px;
+  height:700 px;
+  margin: 0 10px 30px;
+}
+iframe {
+  width: 470px;
+  height: 250px;
+  margin: auto;
+}
+
+
+/* Illinois */
+#illinois-page {
+  background-image: url("../images/sky.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  }
+#downtown{
+  text-align: left;
+  float: left;
+  width: 470px;
+  text-align:  left;
+  margin: 0 10px 30px;
+}
+#sixflags{
+  text-align: left;
+  float: left;
+  width: 470px;
+  text-align:  left;
+  margin: 0 10px 30px;
+}
+#naperville{
+  text-align: left;
+  float: left;
+  width: 470px;
+  text-align:  left;
+  margin: 0 10px 30px;
+}
+
+
+
+
+/* Navigation Bar */
 #navbar {
   overflow: hidden;
   background-color: gray;
@@ -57,181 +211,6 @@ img{
   text-decoration: none;
 }
 #navbar ul li a:hover {
-  background-color: purple;
+  background-color: black;
   color: white;
-}
-#onpage {
-  text-decoration: underline;
-}
-
-#illinois-page {
-  font-family: 'New Rocker', cursive;
-  background-image: url("../images/sky.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  }
-#show-page {
-  font-family: 'New Rocker', cursive;
-  background-image: url("../images/netflix.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  }
-  
- /* RESUME PAGE  */
- 
- #resume-page {
-  font-family: 'New Rocker', cursive;
-  background-image: url("../images/pencil.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  }
-  
- #resume-info {
-  width: 1560px;
-  margin: 0 30px;
-}
-
-#About {
-  background-color: gray;
-  text-align: left;
-  float: left;
-  width: 470px;
-  border: 1px solid black;
-  text-align: left;
-  margin: 0 10px 30px;
-}
-
-#Skills {
-  background-color:gray;
-  text-align: left;
-  float: left;
-  width: 470px;
-  border: 1px solid black;
-  text-align:  left;
-  margin: 0 10px 30px;
-}
-
-#Education {
-  background-color:gray;
-  text-align: left;
-  float: left;
-  width: 470px;
-  border: 1px solid black;
-  text-align: left;
-  margin: 0 10px 30px;
-}
-
-#work {
-  background-color:gray;
-  text-align: left;
-  float: left;
-  width: 470px;
-  border: 1px solid black;
-  text-align:  left;
-  margin: 0 10px 30px;
-}
-
-#contact {
-  background-color:gray;
-  text-align: left;
-  float: left;
-  width: 470px;
-  border: 1px solid black;
-  text-align:  left;
-  margin: 0 10px 30px;
-}
-
-#volunteer {
-  background-color:gray;
-  text-align: left;
-  float: left;
-  width: 470px;
-  border: 1px solid black;
-  text-align:  left;
-  margin: 0 10px 30px;
-}
-
-
-#footer {
-  overflow: hidden;
-  background-color: gray;
-float: center;
-  width: 100%;
-  position: relative;
-   text-align:  center;
-}
-
-/* shows */
-#avatar{
-  background-color:gray;
-  text-align: left;
-  float: left;
-  width: 470px;
-  border: 1px solid black;
-  text-align:  left;
-  margin: 0 10px 30px;
-}
-#Yona{
-  background-color:gray;
-  text-align: left;
-  float: right;
-  width: 470px;
-  border: 1px solid black;
-  text-align:  left;
-  margin: 0 10px 30px;
-}
-#Weightlifting{
-  background-color:gray;
-  text-align: left;
-  float: right;
-  width: 470px;
-  height:700 px;
-  border: 1px solid black;
-  text-align:  left;
-  margin: 0 10px 30px;
-}
-
-#trailer{
-  background-color:gray;
-  text-align: left;
-  float: center;
-  width: 470px;
-  border: 1px solid black;
-  text-align:  left;
-  margin: 0 10px 30px;
-}
-
-/* Illinois */
-#downtown{
-  background-color:gray;
-  text-align: left;
-  float: left;
-  width: 470px;
-  border: 1px solid black;
-  text-align:  left;
-  margin: 0 10px 30px;
-}
-#sixflags{
-  background-color:gray;
-  text-align: left;
-  float: left;
-  width: 470px;
-  border: 1px solid black;
-  text-align:  left;
-  margin: 0 10px 30px;
-}
-#naperville{
-  background-color:gray;
-  text-align: left;
-  float: left;
-  width: 470px;
-  border: 1px solid black;
-  text-align:  left;
-  margin: 0 10px 30px;
 }
