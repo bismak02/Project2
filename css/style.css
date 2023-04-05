@@ -57,6 +57,7 @@ img{
   text-align:  left;
   border: 3px solid black;
   margin: 0 10px 30px;
+   padding: 10px 20px;
 }
 #Education {
   text-align: left;
@@ -65,6 +66,7 @@ img{
   text-align: left;
   border: 3px solid black;
   margin: 0 10px 30px;
+   padding: 10px 20px;
 }
 #work {
   text-align: left;
@@ -73,6 +75,7 @@ img{
   text-align:  left;
   border: 3px solid black;
   margin: 0 10px 30px;
+   padding: 10px 20px;
 }
 #contact {
   text-align: left;
@@ -81,6 +84,7 @@ img{
   text-align:  left;
   border: 3px solid black;
   margin: 0 10px 30px;
+   padding: 10px 20px;
 }
 #volunteer {
   text-align: left;
@@ -89,6 +93,7 @@ img{
   text-align:  left;
   border: 3px solid black;
   margin: 0 10px 30px;
+   padding: 10px 20px;
 }
 
 /* shows */
@@ -104,18 +109,21 @@ img{
   float: left;
   width: 480px;
   margin: 0 10px 30px;
+   padding: 10px 20px;
 }
 #Yona{
   text-align: left;
   float: right;
   width: 480px;
   margin: 0 10px 30px;
+   padding: 10px 20px;
 }
 #Weightlifting{
   text-align: left;
   float: right;
   width: 480px;
   margin: 0 10px 30px;
+   padding: 10px 20px;
 }
 iframe {
   width: 470px;
@@ -132,6 +140,7 @@ iframe {
   background-repeat: no-repeat;
   background-size: cover;
   color: black;
+   padding: 10px 20px;
 }
 #downtown{
   text-align: left;
@@ -139,6 +148,7 @@ iframe {
   width: 470px;
   text-align:  left;
   margin: 0 10px 30px;
+   padding: 10px 20px;
 }
 #sixflags{
   text-align: left;
@@ -146,6 +156,7 @@ iframe {
   width: 470px;
   text-align:  left;
   margin: 0 10px 30px;
+   padding: 10px 20px;
 }
 #naperville{
   text-align: left;
@@ -153,6 +164,7 @@ iframe {
   width: 470px;
   text-align:  left;
   margin: 0 10px 30px;
+   padding: 10px 20px;
 }
 
 /* Navigation Bar */
