@@ -1,13 +1,13 @@
 h1,h2{
-text-align:center;
-font-weight: bold; 
-font-family: 'Times New Roman', Times;
+	text-align:center;
+	font-weight: bold; 
+	font-family: 'Times New Roman', Times;
 }
 h1{
-text-decoration:underline;
+	text-decoration:underline;
 }
 p,li,h4{
-font-family: 'Noto Sans JP', sans-serif, Times New Roman;
+	font-family: 'Noto Sans JP', sans-serif, Times New Roman;
 }
 h1:hover{
 	background-color: black;
@@ -18,7 +18,7 @@ h2:hover{
   color: white;
 }
 p:hover{
-  background-color: black;
+	background-color: black;
   color: white;
 }
 li:hover{
@@ -54,8 +54,8 @@ img{
   padding: 10px 20px;
 }
 #Skills {
-  text-align: left;
-  float: left;
+	text-align: left;
+	float: left;
   width: 525px;
   border: 3px solid black;
   margin: 30px 30px 30px;
@@ -129,7 +129,6 @@ iframe {
   margin: auto;
   border-width: 0px;
 }
-
 
 /* Illinois */
 #illinois-page {
